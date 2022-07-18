@@ -1,3 +1,14 @@
+# See deployed app on heroku !
+
+https://protected-wave-80663.herokuapp.com/
+
+# Video available :
+
+# React client
+
+This project is bootstraped with [Create React App](https://create-react-app.dev). It is unopinionated with only `web3.js` as an added dependency, so nothing stands in your way.
+
+## Getting started
 # React Truffle Box
 
 This box comes with everything you need to start using Truffle to write, compile, test, and deploy smart contracts, and interact with them from a React app.
