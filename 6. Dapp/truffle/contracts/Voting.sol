@@ -156,7 +156,7 @@ contract Voting is Ownable {
     }
 
     /**
-     * @notice Set status to VotingSessionEnded & calculate the winning proposal id
+     * @notice Set status to VotingSessionEnded & Calculate the winning proposal id
      */
    function tallyVotes() external onlyOwner {
        require(workflowStatus == WorkflowStatus.VotingSessionEnded, "Current status is not voting session ended");
