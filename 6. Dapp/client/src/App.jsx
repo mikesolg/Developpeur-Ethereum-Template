@@ -1,5 +1,4 @@
 import { EthProvider } from "./contexts/EthContext";
-//import Intro from "./components/Intro/";
 import Voting from "./components/Voting";
 import Address from "./components/Address";
 
@@ -12,7 +11,7 @@ function App() {
       <div id="App" >
         <div className="container">
           <Address/>
-          <hr />
+          <hr/>
           <Voting />
         </div>
       </div>
