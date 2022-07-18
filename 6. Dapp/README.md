@@ -2,7 +2,9 @@
 
 https://protected-wave-80663.herokuapp.com/
 
-# Video available :
+# Video available !
+
+https://www.loom.com/share/80dfc9dafd2e40cbb7ebade56e58b602
 
 # React client
 

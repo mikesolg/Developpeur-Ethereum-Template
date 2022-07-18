@@ -6,6 +6,8 @@ import "./App.css";
 
 function App() {
 
+  document.title = "Voting frontend"
+
   return (
     <EthProvider>
       <div id="App" >
