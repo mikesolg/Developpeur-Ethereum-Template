@@ -89,16 +89,16 @@ hr {
   font-size: 2.6rem;
 }
 
-#App .container .demo .contract-container {
+#App .container .demo .artifacts .contract-container {
   display: flex;
 }
 
-#App .container .demo .contract-container code {
+#App .container .demo .artifacts .contract-container code {
   min-width: 42rem;
   border-radius: 1rem 0 0 1rem;
 }
 
-#App .container .demo .contract-container .btns {
+#App .container .demo .artifacts .contract-container .btns {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -109,7 +109,7 @@ hr {
   border-radius: 0 1rem 1rem 0;
 }
 
-#App .container .demo .contract-container .btns>* {
+#App .container .demo .artifacts .contract-container .btns>* {
   width: 12rem;
   display: flex;
   align-items: center;
@@ -122,11 +122,11 @@ hr {
   cursor: pointer;
 }
 
-#App .container .demo .contract-container .btns>*:hover {
+#App .container .demo .artifacts .contract-container .btns>*:hover {
   background-color: var(--dark-gray);
 }
 
-#App .container .demo .contract-container .btns .input-btn input {
+#App .container .demo .artifacts .contract-container .btns .input-btn input {
   width: 4rem;
   text-align: center;
   font-family: monospace;

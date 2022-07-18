@@ -3,8 +3,15 @@ html {
   font-family: sans-serif;
 }
 
+.header {
+    text-align: right;
+    border-style: groove;
+    font-size: small;
+    text-shadow: 2px 2px 3px black;
+ }
+
 * {
-  margin: 0;
+  margin: 10;
   padding: 0;
 }
 
