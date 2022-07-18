@@ -10,7 +10,6 @@ import NoticeWrongNetwork from './NoticeWrongNetwork';
 function Voting() {
       const { state } = useEth();
       const [currentWorkflowState, setCurrentWorkflowState] = useState(0);
-      //const [voters, setVoters] = useState([]);
       const [isVoter, setIsVoter] = useState(false); // indicates if connected account is a registered voter
       const [owner, setOwner] = useState(false);
 
@@ -24,8 +23,6 @@ function Voting() {
                         <Voters
                               currentWorkflowState={currentWorkflowState}
                               isOwner={owner}
-                              //setVoters={setVoters}
-                              //voters={voters}
                               setIsVoter={setIsVoter}
                         />
                         {currentWorkflowState >= 1 && (

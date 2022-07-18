@@ -30,7 +30,7 @@ function Voters(props) {
             }
             setup();
              // eslint-disable-next-line react-hooks/exhaustive-deps
-      });
+      }, [accounts]);
 
       let options = {
             fromBlock: 'latest',        
